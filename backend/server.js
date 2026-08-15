@@ -14,12 +14,15 @@ const app = express();
 const port = process.env.PORT || 4000;
 // middleware
 console.log("FRONTEND_URL =", process.env.FRONTEND_URL);
-app.use(
-  cors({
-    origin: true,
-    credentials: true,
-  })
-);
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://learning-management-system-livid-mu.vercel.app",
+    "https://learning-management-system-5q1zprqsk.vercel.app",
+  ],
+  credentials: true,
+}));
 app.use(express.json());
 app.use((req, res, next) => {
   console.log(`${req.method} ${req.originalUrl}`);
