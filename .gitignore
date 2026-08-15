@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 config
-admin
+admin/.env
+admin/vite.config.js 
 .env
 uploads/
