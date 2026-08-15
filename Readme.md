@@ -80,7 +80,7 @@ cd admin
 npm run dev
 ```
 
-## Deployment
+##  Deployment
 
 - **Frontend:** Vercel
 - **Admin:** Vercel
@@ -91,6 +91,6 @@ npm run dev
 
 **Haider Jhalodwala**
 
-# License
+#  License
 
 This project is developed for educational purposes and personal learning.
