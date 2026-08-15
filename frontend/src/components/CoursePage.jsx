@@ -6,8 +6,7 @@ import { toast, ToastContainer, Slide } from "react-toastify";
 import { useAuth, useUser } from "@clerk/clerk-react";
 import {Toaster } from 'react-hot-toast';
 
-const API_BASE = 'http://localhost:4000';
-
+const API_BASE = import.meta.env.VITE_API_URL;
 const StarIcon = ({ filled = false, half = false, className = "" }) => {
   if (half) {
     return <StarHalf className={`w-4 h-4${className}`} fill="currentColor" />
