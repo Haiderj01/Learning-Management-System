@@ -80,17 +80,9 @@ cd admin
 npm run dev
 ```
 
-##  Deployment
-
-- **Frontend:** Vercel
-- **Admin:** Vercel
-- **Backend:** Render
-- **Database:** MongoDB Atlas
 
 ## Author
 
 **Haider Jhalodwala**
-
-#  License
 
 This project is developed for educational purposes and personal learning.
