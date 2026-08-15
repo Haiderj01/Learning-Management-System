@@ -8,8 +8,7 @@ dotenv.config();
 
 const STRIPE_KEY = process.env.STRIPE_SECRET_KEY
 const FRONTEND_URL = process.env.FRONTEND_URL
-const stripe = STRIPE_KEY ? new Stripe(STRIPE_KEY , {apiVersion: "2023-10-15"}) : null;
-
+const stripe = STRIPE_KEY ? new Stripe(STRIPE_KEY) : null;
 //HELPERS
 const safeNumber = (v) => {
     const n = Number(v);
