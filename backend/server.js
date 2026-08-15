@@ -18,8 +18,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://learning-management-system-livid-mu.vercel.app",
-    "https://learning-management-system-5q1zprqsk.vercel.app",
+    process.env.FRONTEND_URL,
   ],
   credentials: true,
 }));
