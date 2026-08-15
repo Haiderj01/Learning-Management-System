@@ -18,7 +18,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://lms-haider.vercel.app" 
+    "https://lms-haider.vercel.app",
+    "https://learning-management-system-e94er2r3i.vercel.app"
   ],
   credentials: true,
 }));
