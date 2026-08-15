@@ -13,6 +13,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 4000;
 // middleware
+console.log("FRONTEND_URL =", process.env.FRONTEND_URL);
 app.use(
   cors({
     origin: true,
