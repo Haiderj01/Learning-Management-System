@@ -2,7 +2,7 @@
 
 A modern **Learning Management System (LMS)** built with the **MERN Stack** that allows students to browse and purchase courses while providing educators with a dashboard to manage courses, bookings, and revenue.
 
-## ✨ Features
+## Features
 
 - 🔐 User Authentication with Clerk
 - 📖 Browse and enroll in courses
@@ -12,7 +12,7 @@ A modern **Learning Management System (LMS)** built with the **MERN Stack** that
 - 👥 Student enrollment tracking
 - 📱 Responsive user interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express.js
@@ -20,7 +20,7 @@ A modern **Learning Management System (LMS)** built with the **MERN Stack** that
 - **Authentication:** Clerk
 - **Payments:** Stripe
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LMS/
@@ -30,7 +30,7 @@ LMS/
 └── README.md
 ```
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/LMS.git
@@ -39,7 +39,7 @@ cd LMS
 npm install
 ```
 
-## 🔑 Environment Variables
+## Environment Variables
 
 Create a `.env` file and add:
 
@@ -57,7 +57,7 @@ FRONTEND_URL=http://localhost:5173
 VITE_API_URL=http://localhost:4000
 ```
 
-## ▶️ Run the Project
+## Run the Project
 
 ### Backend
 
@@ -80,13 +80,17 @@ cd admin
 npm run dev
 ```
 
-## 🚀 Deployment
+## Deployment
 
 - **Frontend:** Vercel
 - **Admin:** Vercel
 - **Backend:** Render
 - **Database:** MongoDB Atlas
 
-## 👨‍💻 Author
+## Author
 
 **Haider Jhalodwala**
+
+# License
+
+This project is developed for educational purposes and personal learning.
