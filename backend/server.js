@@ -21,6 +21,10 @@ app.use(
   })
 );
 app.use(express.json());
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.originalUrl}`);
+  next();
+});
 app.use(express.urlencoded({ extended: true }));
 
 app.use(clerkMiddleware());
