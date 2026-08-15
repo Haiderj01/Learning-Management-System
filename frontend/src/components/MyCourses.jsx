@@ -4,7 +4,7 @@ import { useUser, useAuth } from "@clerk/clerk-react";
 import { useNavigate } from "react-router-dom";
 import { Star,User, Plane } from "lucide-react";
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = import.meta.env.VITE_API_URL;
 
 const MyCourses = () => {
     const navigate = useNavigate();
