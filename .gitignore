@@ -27,4 +27,4 @@ dist-ssr
 admin/.env
 admin/vite.config.js 
 .env
-uploads/
+
