@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-config
+
 admin/.env
 admin/vite.config.js 
 .env

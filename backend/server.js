@@ -5,7 +5,9 @@ import { clerkMiddleware } from '@clerk/express'
 import { connectDB } from './config/db.js';
 import courseRouter from './routes/courseRouter.js';
 import bookingRouter from './routes/bookingRouter.js';
+import dotenv from "dotenv";
 
+dotenv.config();
 
 
 const app = express();
